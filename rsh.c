@@ -8,7 +8,7 @@
 #define N 12
 
 extern char **environ;
-
+// test
 char *allowed[N] = {"cp","touch","mkdir","ls","pwd","cat","grep","chmod","diff","cd","exit","help"};
 
 int isAllowed(const char*cmd) {
